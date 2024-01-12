@@ -3,15 +3,13 @@ import requests
 import os
 import uuid
 import json
-from GetBFENR import GetBFENumber
-from GetTingBogsUrl import TingBogsURL
-from GetKMDAcessToken import GetKMDToken
+from robot_framework import GetBFENR, GetTingBogsUrl, GetKMDAcessToken
 from OpenOrchestrator.orchestrator_connection.connection import OrchestratorConnection
 def process(orchestrator_connection: OrchestratorConnection) -> None:
     """Do the primary process of the robot."""
     orchestrator_connection.log_trace("Running process.")
     ##Henter BFE-nummer og Case uuid
-    CaseInfo = GetBFENumber()
+    CaseInfo = GetBFENR.GetBFENumber()
     CaseUuid = CaseInfo[0]
     BFENumber = str(CaseInfo[1])
     CaseAdress = CaseInfo[2]
@@ -19,7 +17,7 @@ def process(orchestrator_connection: OrchestratorConnection) -> None:
     print(BFENumber)
 
     ## Henter Tingbogsurl:
-    TingsbogsInfo = TingBogsURL()
+    TingsbogsInfo = GetTingBogsUrl.TingBogsURL()
     URL = [row[3] for row in TingsbogsInfo]
     URL = URL[0]
     if CaseAdress is False:
@@ -52,7 +50,7 @@ def process(orchestrator_connection: OrchestratorConnection) -> None:
     # URL of the API endpoint
     TransactionID = str(uuid.uuid4())
     DocumentID = str(uuid.uuid4())
-    access_token = GetKMDToken()
+    access_token = GetKMDAcessToken.GetKMDToken()
     url = 'https://novaapi.kmd.dk/api/Document/UploadFile/' + TransactionID + '/' + DocumentID + '?api-version=1.0-Case'
 
     # Set the Authorization header with the bearer token

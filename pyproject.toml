@@ -15,9 +15,31 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: Microsoft :: Windows",
 ]
+
 dependencies = [
     "OpenOrchestrator == 1.*",
     "Pillow == 9.5.0",
+    "Babel == 2.14.0",
+    "SQLAlchemy == 2.0.25",
+    "certifi == 2023.11.17",
+    "cffi == 1.16.0",
+    "charset-normalizer == 3.3.2",
+    "croniter == 2.0.1",
+    "cryptography == 41.0.7",
+    "greenlet == 3.0.3",
+    "idna == 3.6",
+    "numpy == 1.26.3",
+    "pip == 23.3.2",
+    "pycparser == 2.21",
+    "pyodbc == 5.0.1",
+    "python-dateutil == 2.8.2",
+    "pytz == 2023.3.post1",
+    "requests == 2.31.0",
+    "six == 1.16.0",
+    "tkcalendar == 1.6.1",
+    "typing_extensions == 4.9.0",
+    "urllib3 == 2.1.0",
+    "uuid == 1.30"
 ]
 
 [project.optional-dependencies]
