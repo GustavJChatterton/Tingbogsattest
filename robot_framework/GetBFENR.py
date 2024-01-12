@@ -3,7 +3,7 @@ def GetBFENumber():
     import uuid
     import requests
     import json
-    from GetKMDAcessToken import GetKMDToken
+    from robot_framework.GetKMDAcessToken import GetKMDToken
 
     # URL of the API endpoint
     url = 'https://novaapi.kmd.dk/api/Case/GetList?api-version=1.0-Case'

@@ -1,7 +1,7 @@
 def TingBogsURL():
     import pyodbc
     import numpy as np
-    from GetBFENR import GetBFENumber
+    from robot_framework.GetBFENR import GetBFENumber
     CaseInfo = GetBFENumber()
     CaseUuid = CaseInfo[0]
     BFENumber = CaseInfo[1]
