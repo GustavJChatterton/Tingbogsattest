@@ -11,7 +11,7 @@ os.chdir(script_directory)
 
 subprocess.run("python -m venv .venv", check=True)
 subprocess.run(r'.venv\Scripts\pip install .', check=True)
-
+subprocess.run(r'.venv\Scripts\pip install requests', check=True)
 command_args = [r".venv\Scripts\python", "-m", "robot_framework"] + sys.argv[1:]
 
 subprocess.run(command_args, check=True)
