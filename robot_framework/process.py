@@ -1,18 +1,15 @@
 """This module contains the main process of the robot."""
-
+import requests
+import os
+import uuid
+import json
+from GetBFENR import GetBFENumber
+from GetTingBogsUrl import TingBogsURL
+from GetKMDAcessToken import GetKMDToken
 from OpenOrchestrator.orchestrator_connection.connection import OrchestratorConnection
 def process(orchestrator_connection: OrchestratorConnection) -> None:
     """Do the primary process of the robot."""
     orchestrator_connection.log_trace("Running process.")
-
-    import requests
-    import os
-    import uuid
-    import json
-    from GetBFENR import GetBFENumber
-    from GetTingBogsUrl import TingBogsURL
-    from GetKMDAcessToken import GetKMDToken
-
     ##Henter BFE-nummer og Case uuid
     CaseInfo = GetBFENumber()
     CaseUuid = CaseInfo[0]
@@ -144,3 +141,9 @@ def process(orchestrator_connection: OrchestratorConnection) -> None:
         print("File is deleted")
     else:
         print("The file does not exists")
+
+#if __name__ == '__main__':
+   # conn_string = os.getenv("OpenOrchestratorConnString")
+   # crypto_key = os.getenv("OpenOrchestratorKey")
+   # oc = OrchestratorConnection("Sletning Test", conn_string, crypto_key, "")
+  #  process(oc)
