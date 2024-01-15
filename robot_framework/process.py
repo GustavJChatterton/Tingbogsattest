@@ -147,8 +147,8 @@ def process(orchestrator_connection: OrchestratorConnection) -> None:
     else:
         print("The file does not exists")
 
-if __name__ == '__main__':
-   conn_string = os.getenv("OpenOrchestratorConnString")
-   crypto_key = os.getenv("OpenOrchestratorKey")
-   oc = OrchestratorConnection("Sletning Test", conn_string, crypto_key, "")
-    process(oc)
+# if __name__ == '__main__':
+#    conn_string = os.getenv("OpenOrchestratorConnString")
+#    crypto_key = os.getenv("OpenOrchestratorKey")
+#    oc = OrchestratorConnection("Sletning Test", conn_string, crypto_key, "")
+#     process(oc)

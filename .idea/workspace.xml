@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88a49e2a-6140-4253-ae8c-7a0426cd0441" name="Changes" comment="Test">
-      <change beforePath="$PROJECT_DIR$/.idea/Tingbogsattest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tingbogsattest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/CreateDataBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/CreateDataBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/process.py" afterDir="false" />
-    </list>
+    <list default="true" id="88a49e2a-6140-4253-ae8c-7a0426cd0441" name="Changes" comment="Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705064321104</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Test">
+      <option name="closed" value="true" />
+      <created>1705313880799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705313880799</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
