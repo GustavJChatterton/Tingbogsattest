@@ -3,6 +3,7 @@ import requests
 import os
 import uuid
 import json
+import datetime
 from robot_framework import GetBFENR, GetTingBogsUrl, GetKMDAcessToken
 from OpenOrchestrator.orchestrator_connection.connection import OrchestratorConnection
 def process(orchestrator_connection: OrchestratorConnection) -> None:
@@ -77,7 +78,13 @@ def process(orchestrator_connection: OrchestratorConnection) -> None:
 
     # Definerer variable, som skal sende med sidste API-kald:
     ID = str(uuid.uuid4())
-    ConfigDate = '2024-01-11T09:35:47Z'
+
+    # Get the current date and time
+    now = datetime.datetime.now(datetime.timezone.utc)
+    # Format the date and time in the specified format: "yyyy-mm-ddThh:mm:ssZ"
+    ConfigDate  = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    print(ConfigDate)
+
     NovaUnitId = '0c89d77b-c86f-460f-9eaf-d238e4f451ed'
     UnitNumber = '70528'
     UnitName = 'Plan og Byggeri'
@@ -140,8 +147,8 @@ def process(orchestrator_connection: OrchestratorConnection) -> None:
     else:
         print("The file does not exists")
 
-#if __name__ == '__main__':
-   # conn_string = os.getenv("OpenOrchestratorConnString")
-   # crypto_key = os.getenv("OpenOrchestratorKey")
-   # oc = OrchestratorConnection("Sletning Test", conn_string, crypto_key, "")
-  #  process(oc)
+if __name__ == '__main__':
+   conn_string = os.getenv("OpenOrchestratorConnString")
+   crypto_key = os.getenv("OpenOrchestratorKey")
+   oc = OrchestratorConnection("Sletning Test", conn_string, crypto_key, "")
+    process(oc)
