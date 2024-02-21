@@ -4,6 +4,7 @@ def GetBFENumber():
     import requests
     import json
     from robot_framework.GetKMDAcessToken import GetKMDToken
+    from process import in_CaseNumber
 
     # URL of the API endpoint
     url = 'https://novaapi.kmd.dk/api/Case/GetList?api-version=1.0-Case'

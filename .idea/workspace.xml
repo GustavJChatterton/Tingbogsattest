@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88a49e2a-6140-4253-ae8c-7a0426cd0441" name="Changes" comment="Test" />
+    <list default="true" id="88a49e2a-6140-4253-ae8c-7a0426cd0441" name="Changes" comment="Test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_framework/GetBFENR.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/GetBFENR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -44,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.CreateDataBase">
+  <component name="RunManager" selected="Python.process">
     <configuration name="CreateDataBase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tingbogsattest" />
       <option name="ENV_FILES" value="" />
@@ -135,10 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.process" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.CreateDataBase" />
         <item itemvalue="Python.__main__" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.process" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705313880799</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Test">
+      <option name="closed" value="true" />
+      <created>1705314483925</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705314483925</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
