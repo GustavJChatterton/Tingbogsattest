@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88a49e2a-6140-4253-ae8c-7a0426cd0441" name="Changes" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/GetBFENR.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/GetBFENR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705314483925</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Test">
+      <option name="closed" value="true" />
+      <created>1708523233879</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708523233879</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
