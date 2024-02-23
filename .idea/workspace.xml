@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88a49e2a-6140-4253-ae8c-7a0426cd0441" name="Changes" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/GetBFENR.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/GetBFENR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_framework/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708594974322</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Test">
+      <option name="closed" value="true" />
+      <created>1708683773835</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708683773835</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
