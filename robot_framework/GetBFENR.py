@@ -4,6 +4,8 @@ def GetBFENumber():
     import requests
     import json
     from robot_framework.GetKMDAcessToken import GetKMDToken
+    from robot_framework.queue_framework import main
+
     #from process import in_CaseNumber
 
     # URL of the API endpoint

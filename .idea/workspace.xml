@@ -7,6 +7,10 @@
     <list default="true" id="88a49e2a-6140-4253-ae8c-7a0426cd0441" name="Changes" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robot_framework/GetBFENR.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/GetBFENR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/TingBogsattest.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_framework/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_framework/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_framework/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/robot_framework/process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -37,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.CreateDataBase.executor": "Run",
-    "Python.GetTingBogsUrl.executor": "Run",
-    "Python.Test.executor": "Run",
-    "Python.__main__.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.process.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/az72987/PycharmProjects/PythonTingbogsattest",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.CreateDataBase.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GetTingBogsUrl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.process.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/az72987/PycharmProjects/PythonTingbogsattest&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Test">
     <configuration name="CreateDataBase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tingbogsattest" />
@@ -309,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708524494546</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Test">
+      <option name="closed" value="true" />
+      <created>1708594974322</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708594974322</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
