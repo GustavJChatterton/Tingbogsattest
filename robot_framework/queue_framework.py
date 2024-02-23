@@ -4,7 +4,6 @@
 # pylint: disable=duplicate-code
 
 import sys
-
 from OpenOrchestrator.orchestrator_connection.connection import OrchestratorConnection
 from OpenOrchestrator.database.queues import QueueStatus
 

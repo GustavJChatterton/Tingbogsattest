@@ -4,6 +4,7 @@ def GetBFENumber():
     import requests
     import json
     from robot_framework.GetKMDAcessToken import GetKMDToken
+    from OpenOrchestrator.database.queues import QueueElement
 
 
     #from process import in_CaseNumber
@@ -11,7 +12,8 @@ def GetBFENumber():
     # URL of the API endpoint
     url = 'https://novaapi.kmd.dk/api/Case/GetList?api-version=1.0-Case'
     access_token = GetKMDToken()
-    CaseNumber = 'S2021-456011'
+    #CaseNumber = 'S2021-456011'
+    CaseNumber = QueueElement()
     TransactionID = str(uuid.uuid4())
 
     print("Henter BFENR og CaseUuid på følgende sag: " + CaseNumber)

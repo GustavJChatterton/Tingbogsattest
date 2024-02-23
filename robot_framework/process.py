@@ -5,6 +5,7 @@ import uuid
 import json
 import datetime
 from robot_framework import GetBFENR, GetTingBogsUrl, GetKMDAcessToken
+
 from OpenOrchestrator.orchestrator_connection.connection import OrchestratorConnection
 def process(orchestrator_connection: OrchestratorConnection) -> None:
     """Do the primary process of the robot."""
