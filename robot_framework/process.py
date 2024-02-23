@@ -5,9 +5,8 @@ import uuid
 import json
 import datetime
 from robot_framework import GetBFENR, GetTingBogsUrl, GetKMDAcessToken
-from OpenOrchestrator.database.queues import QueueElement
 from OpenOrchestrator.orchestrator_connection.connection import OrchestratorConnection
-def process(orchestrator_connection: OrchestratorConnection, queue_element:QueueElement) -> None:
+def process(orchestrator_connection: OrchestratorConnection) -> None:
     """Do the primary process of the robot."""
     orchestrator_connection.log_trace("Running process.")
     ##Henter BFE-nummer og Case uuid
@@ -17,8 +16,6 @@ def process(orchestrator_connection: OrchestratorConnection, queue_element:Queue
     CaseAdress = CaseInfo[2]
     print(CaseUuid)
     print(BFENumber)
-    print("Dette er kø-elementet:")
-    print(QueueElement)
 
     ## Henter Tingbogsurl:
     TingsbogsInfo = GetTingBogsUrl.TingBogsURL()
