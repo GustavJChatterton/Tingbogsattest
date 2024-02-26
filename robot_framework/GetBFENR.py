@@ -12,8 +12,9 @@ def GetBFENumber():
     # URL of the API endpoint
     url = 'https://novaapi.kmd.dk/api/Case/GetList?api-version=1.0-Case'
     access_token = GetKMDToken()
+    data_dict = json.loads(QueueElement)
     #CaseNumber = 'S2021-456011'
-    CaseNumber = QueueElement()
+    CaseNumber = data_dict
     TransactionID = str(uuid.uuid4())
 
     print("Henter BFENR og CaseUuid på følgende sag: " + CaseNumber)
